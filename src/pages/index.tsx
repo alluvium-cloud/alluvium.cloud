@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Banner from '@site/static/img/ma-full.svg';
+import Banner from '@site/static/img/ma-banner.png';
 
 
 import styles from './index.module.css';
