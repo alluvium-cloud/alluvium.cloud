@@ -4,7 +4,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Banner from '@site/static/img/ma-banner.png';
+// images
+import Banner from '@site/static/img/ma-banner.svg';
 
 
 import styles from './index.module.css';
@@ -14,7 +15,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={Banner} />
+        <Banner />
       </div>
     </header>
   );
