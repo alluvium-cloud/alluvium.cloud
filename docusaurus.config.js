@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mundane Automation',
-  tagline: '... why spend 3 minutes doing something I could automate in 2 hours?',
+  tagline: 'Why spend 2 minutes doing something you could automate in 3 hours?',
   url: 'https://alluvium.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,7 +36,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ericreeves/alluvium.cloud/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ericreeves/alluvium.cloud/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ericreeves/alluvium.cloud/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ericreeves/alluvium.cloud/tree/main/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,7 +60,7 @@ const config = {
         title: 'Mundane Automation',
         logo: {
           alt: 'Mundane Automation',
-          src: 'img/Mundane_Automation_Square_Trans.png',
+          src: 'img/ma-robot-t.svg',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -68,7 +68,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Wiki',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/ericreeves/',
