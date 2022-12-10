@@ -1,0 +1,19 @@
+192F51 - BG
+
+223858 
+
+364967
+
+F0F1F3 - whiteish
+
+99A3B1 - lightgray
+
+
+--
+
+
+475D80 - lightest
+2C4366 - light
+192F51 - MAIN BG
+091838 - dark
+020E20 - darkest
