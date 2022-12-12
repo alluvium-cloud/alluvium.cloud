@@ -32,6 +32,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'wiki',
+          routeBasePath: 'wiki',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -64,12 +66,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
+          {to: '/wiki', label: 'Wiki', position: 'left'},
           {
             href: 'https://github.com/ericreeves/',
             label: 'About Me',

@@ -9,7 +9,7 @@ public_folder: "/img/" # The src attribute for uploaded media will begin with /i
 
 collections:
 - name: blog
-  label: "blog"
+  label: "Blog"
   folder: blog
   identifier_field: title
   extension: md
@@ -26,21 +26,31 @@ collections:
     - label: "Authors"
       name: "authors" 
       widget: "list"
-- name: docs
-  label: "docs"
-  folder: docs
+      default: "[eric]"
+- name: wiki
+  label: "Wiki"
+  label_singular: "Wiki Entry"
+  folder: wiki
   nested:
-    depth: 5
-    summary: "{{slug}}"
-  identifier_field: slug
+    depth: 100
+    summary: "{{title}}"
   extension: md
-  widget: "list"
   create: true
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields:
-    - { name: title, label: Title, widget: string }
     - { name: body, label: Body, widget: markdown }
-    - { name: slug, label: Slug, widget: string }
     - label: "Tags"
       name: "tags"
       widget: "list"
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+  meta:
+    path:
+      widget: select
+      label: 'Path'
+      index_file: 'index'
+      allow_add: false
+      options:
+        - /
+        - HashiCorp
+        - Linux Shell
+        - Window Managers

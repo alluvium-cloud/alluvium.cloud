@@ -1,7 +1,5 @@
 ---
-sidebar_position: 1
-title: BM Title
-slug: BM Slug
+sidebar_position: 2
 tags:
   - BM
 ---
@@ -11,9 +9,7 @@ tags:
 
 <https://mpolinowski.github.io/docs/Development/Javascript/2022-07-01-docusaurus-introduction/2022-07-01/>
 
-
-
-N﻿EWBOOKMARK
+NEWBOOKMARK
 
 ## CSS
 
