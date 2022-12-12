@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: BM Title
+slug: BM Slug
+tags:
+  - BM
 ---
 
 # Bookmarks
