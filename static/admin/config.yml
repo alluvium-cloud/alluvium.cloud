@@ -52,6 +52,6 @@ collections:
       allow_add: false
       options:
         - /
-        - HashiCorp
-        - Linux Shell
-        - Window Managers
+        - /HashiCorp
+        - /Linux Shell
+        - /Window Managers
