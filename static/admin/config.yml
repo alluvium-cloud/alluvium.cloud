@@ -45,16 +45,17 @@ collections:
       widget: "list"
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
-  meta:
-    path:
-      widget: select
-      label: 'Path'
-      index_file: '_index'
-      allow_add: false
-      options:
-        - /
-        - /hashicorp
-        - /linux-shell
-        - /window-managers
-        - /wiki/linux-shell
-        - /wiki/window-managers
+  meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
+  # meta:
+  #   path:
+  #     widget: select
+  #     label: 'Path'
+  #     index_file: '_index'
+  #     allow_add: false
+  #     options:
+  #       - /
+  #       - /hashicorp
+  #       - /linux-shell
+  #       - /window-managers
+  #       - /wiki/linux-shell
+  #       - /wiki/window-managers
