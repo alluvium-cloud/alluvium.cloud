@@ -3,7 +3,7 @@ backend:
   branch: dev
   repo: ericreeves/alluvium.cloud
 
-# These lines should *not* be indented
+# These lines should *not* be indented  
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
 
