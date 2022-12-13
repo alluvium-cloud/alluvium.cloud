@@ -49,7 +49,7 @@ collections:
     path:
       widget: select
       label: 'Path'
-      index_file: 'index'
+      index_file: '_index'
       allow_add: false
       options:
         - /
