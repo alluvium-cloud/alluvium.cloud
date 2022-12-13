@@ -10,30 +10,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'DevOps',
-    Svg: require('@site/static/img/devops.svg').default,
+    title: 'Blog',
+    Svg: require('@site/static/img/blog.svg').default,
     description: (
       <>
-        I do DevOps things!
+        Blog
       </>
     ),
   },
   {
-    title: 'Flat Earth',
-    Svg: require('@site/static/img/devops.svg').default,
+    title: 'Wiki',
+    Svg: require('@site/static/img/wiki.svg').default,
     description: (
       <>
-        I have a strong opinion about the shape of the Erf.
-      </>
-    ),
-  },
-  {
-    title: 'Scientology',
-    Svg: require('@site/static/img/devops.svg').default,
-    description: (
-      <>
-        I have climbed to the top of the Scientology Bridge to Freedom and
-        have achieved OT VIII.
+        Wiki
       </>
     ),
   },
