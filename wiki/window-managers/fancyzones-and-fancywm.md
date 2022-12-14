@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
+title: FancyZones and FancyWM
 ---
-
 # FancyZones and FancyWM
 
 My tediously-maintained Windows TMW config!
