@@ -1,5 +1,4 @@
 ---
-title: Eric's Brain Dump
 sidebar_position: 1
 tags:
   - testing

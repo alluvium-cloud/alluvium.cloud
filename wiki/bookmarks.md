@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-title: Bookmarks
 tags:
   - bookmarks
 ---
@@ -14,4 +13,4 @@ NEWBOOKMARK
 
 ## CSS
 
-<https://cssreference.io/
+<https://cssreference.io/>
